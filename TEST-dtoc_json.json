@@ -1,0 +1,35 @@
+{
+    "inputs": [
+        "https://github.com/kobbard/personal/blob/e50ff9b4d1cdcd931993b240f2731eda2fe349bb/KIERA-TEST-Virginia%20Woolf%2C%20_Mrs.%20Dalloway%20in%20Bond%20Street_%20(prose).xml"
+    ],
+    "documents": "//div[@type='chapter']",
+    "ignoreNamespace": true,
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "indexDocument": "//div[@type='index']",
+    "editionTitle": "Title",
+    "editionSubtitle": "Subtitle",
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName",
+                "label": "People"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//orgName",
+                "label": "Organizations"
+            },
+            {
+                "xpath": "//objectName",
+                "label": "Objects"
+            }
+            ]
+            }
+}
