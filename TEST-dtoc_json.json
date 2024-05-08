@@ -9,7 +9,7 @@
     "documentImages": "",
     "documentNotes": "",
     "documentLinks": "",
-    "indexDocument": "//div[@type='index']",
+    "indexDocument": "//div[@type='Index']",
     "editionTitle": "Title",
     "editionSubtitle": "Subtitle",
     "curation": {
